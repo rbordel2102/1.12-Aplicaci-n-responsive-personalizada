@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nombre": "Lionel Messi",
+        "posicion": "Delantero",
+        "equipo": "Inter Miami",
+        "edad": 36,
+        "nacionalidad": "Argentina",
+        "goles": 900,
+        "asistencias": 300,
+        "partidos": 1000,
+        "imagen": "https://vignette1.wikia.nocookie.net/futbol/images/5/57/Messi.png/revision/latest?cb=20130627212727"
+    },
+    {
+        "id": 2,
+        "nombre": "Cristiano Ronaldo",
+        "posicion": "Delantero",
+        "equipo": "Al-Nassr",
+        "edad": 39,
+        "nacionalidad": "Portugal",
+        "goles": 850,
+        "asistencias": 250,
+        "partidos": 1100,
+        "imagen": "https://i.pinimg.com/originals/84/b8/3e/84b83e6cf6d88047b8bfa01fdd525be9.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Neymar Jr.",
+        "posicion": "Delantero",
+        "equipo": "Al-Hilal",
+        "edad": 31,
+        "nacionalidad": "Brasil",
+        "goles": 400,
+        "asistencias": 200,
+        "partidos": 500,
+        "imagen": "https://css2.rtve.es/css/rtve.2022.deportes/mundial-futbol-catar-TE_SM7ALFL/estrellas/i/jugadores/neymar.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Kylian Mbappé",
+        "posicion": "Delantero",
+        "equipo": "PSG",
+        "edad": 24,
+        "nacionalidad": "Francia",
+        "goles": 250,
+        "asistencias": 100,
+        "partidos": 300,
+        "imagen": "https://e00-especiales-marca.uecdn.es/100-jugadores-2019/images/jugadores/perfil/KylianMbappe.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Kevin De Bruyne",
+        "posicion": "Centrocampista",
+        "equipo": "Manchester City",
+        "edad": 32,
+        "nacionalidad": "Bélgica",
+        "goles": 100,
+        "asistencias": 150,
+        "partidos": 500,
+        "imagen": "https://w7.pngwing.com/pngs/1003/113/png-transparent-kevin-de-bruyne-manchester-city-f-c-belgium-national-football-team-2017-18-premier-league-2018-world-cup-football-tshirt-blue-jersey-thumbnail.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Erling Haaland",
+        "posicion": "Delantero",
+        "equipo": "Manchester City",
+        "edad": 23,
+        "nacionalidad": "Noruega",
+        "goles": 210,
+        "asistencias": 60,
+        "partidos": 250,
+        "imagen": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250103758.webp"
+    },
+    {
+        "id": 7,
+        "nombre": "Luka Modric",
+        "posicion": "Mediocampista",
+        "equipo": "Real Madrid",
+        "edad": 38,
+        "nacionalidad": "Croacia",
+        "goles": 50,
+        "asistencias": 120,
+        "partidos": 750,
+        "imagen": "https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/3kq9cckrnlogidldtdie2fkbl/players/luka-modric/assets/POSE_-10.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Mohamed Salah",
+        "posicion": "Delantero",
+        "equipo": "Liverpool",
+        "edad": 31,
+        "nacionalidad": "Egipto",
+        "goles": 320,
+        "asistencias": 140,
+        "partidos": 550,
+        "imagen": "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2024-08/mohamed-salah-alternative-body-v2-2024.webp?itok=-25znOcr"
+    },
+    {
+        "id": 9,
+        "nombre": "Robert Lewandowski",
+        "posicion": "Delantero",
+        "equipo": "FC Barcelona",
+        "edad": 35,
+        "nacionalidad": "Polonia",
+        "goles": 550,
+        "asistencias": 150,
+        "partidos": 800,
+        "imagen": "https://assets.laliga.com/squad/2024/t178/p56764/2048x2048/p56764_t178_2024_1_002_000.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Thibaut Courtois",
+        "posicion": "Portero",
+        "equipo": "Real Madrid",
+        "edad": 31,
+        "nacionalidad": "Bélgica",
+        "goles": 0,
+        "asistencias": 5,
+        "partidos": 550,
+        "imagen": "https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/3kq9cckrnlogidldtdie2fkbl/players/thibaut-courtois/assets/550x650_COURTOIS_15.png"
+    }
+]

@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Lista de futbolistas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- Input para filtrar -->
+  <ion-input [(ngModel)]="filtro" (ionInput)="applyFilter()" placeholder="Introduce los datos del filtro" clear-input="true">
+  </ion-input>
+  <ion-grid>
+    <ion-row>
+      <ng-container *ngFor="let futbolista of filteredFutbolistas">
+        <ion-col size-xl="2" size-lg="2" size-md="4" size-sm="6" size-xs="12">
+          <ion-card>
+            <ion-card-content>
+              <h1>{{ futbolista.nombre }}</h1>
+              <div class="ion-text-center">
+                <img [src]="futbolista.imagen" class="futbolista-image">
+              </div>
+              <p><strong>Posición:</strong> {{ futbolista.posicion }}</p>
+              <p><strong>Equipo:</strong> {{ futbolista.equipo }}</p>
+              <p><strong>Edad:</strong> {{ futbolista.edad }}</p>
+              <p><strong>Nacionalidad:</strong> {{ futbolista.nacionalidad }}</p>
+              <p><strong>Goles:</strong> {{ futbolista.goles }}</p>
+              <p><strong>Asistencias:</strong> {{ futbolista.asistencias }}</p>
+              <p><strong>Partidos Jugados:</strong> {{ futbolista.partidos }}</p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ng-container>
+    </ion-row>
+  </ion-grid>
+</ion-content>
